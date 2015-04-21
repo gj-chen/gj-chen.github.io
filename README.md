@@ -1,1 +1,1 @@
-Personal website for my own amusement 
+Website for Belly Uptown in Oakland, CA
