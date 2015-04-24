@@ -281,12 +281,16 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 100px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
-}
+    position:absolute;
+    width:100%;
+    bottom:0;
+    text-align: center center;
+}   
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
