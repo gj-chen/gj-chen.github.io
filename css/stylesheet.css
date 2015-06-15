@@ -28,7 +28,7 @@ body {
 }
 
 
-.links ul li{
+#links ul li{
 	display: inline-block;
 	font-size: 78px;
 	padding: 1%;
@@ -36,6 +36,6 @@ body {
   	text-decoration: none;
 }
 
-.links ul li a {
+#links ul li a {
    color: #000000;
 }
