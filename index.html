@@ -17,6 +17,27 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/font-awesome-animation.min.css">
 
+    <!-- Script -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    
+    <script>
+    $(window).scroll(function() {
+        $('#links').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+400) {
+                $(this).addClass("fadeIn");
+            }
+        });
+    });
+    </script>
+
+    <script>
+    $('#links').onClick(function() {
+        $(this).addClass("fadeIn");
+    });
+    </script>
 </head>
 
 <body>
