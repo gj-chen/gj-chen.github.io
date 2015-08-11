@@ -4,9 +4,25 @@
   font-size: 50px;
 }
 
+a:hover { color: #D3D3D3; 
+/* color of links when hover mouse over */ 
+}
+
+a:active { color: #D3D3D3; 
+/* color of links when active */ 
+}
+
+a:visited{
+  color: #000000;
+}
+
+#cd-vertical-nav a:hover{
+  color: #D3D3D3; 
+}
+
 ul{
   list-style: none;
-  color: #FFFFFF;
+  color: #000000;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
