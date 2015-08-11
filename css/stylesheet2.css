@@ -4,10 +4,22 @@
   font-size: 50px;
 }
 
+a:hover { color: #D3D3D3; 
+/* color of links when hover mouse over */ 
+}
 
-#cd-vertical-nav ul li a:hover{
+a:active { color: #D3D3D3; 
+/* color of links when active */ 
+}
+
+a:visited{
   color: #000000;
 }
+
+#cd-vertical-nav a:hover{
+  color: #D3D3D3; 
+}
+
 
 ul{
   list-style: none;
