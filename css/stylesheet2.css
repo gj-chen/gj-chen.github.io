@@ -4,20 +4,9 @@
   font-size: 50px;
 }
 
-a:hover { color: #D3D3D3; 
-/* color of links when hover mouste over */ 
-}
 
-a:active { color: #D3D3D3; 
-/* color of links when active */ 
-}
-
-a:visited{
+#cd-vertical-nav ul li a:hover{
   color: #000000;
-}
-
-#cd-vertical-nav a:hover{
-  color: #D3D3D3; 
 }
 
 ul{
