@@ -30,17 +30,7 @@ ul{
   font-size: 25px;
 }
 
-#links ul li{
-  display: inline-block;
-  font-size: 45px;
-  padding: 0.5%;
-  color: #000000;
-  text-decoration: none;
-}
 
-#links ul li a {
-  color: #000000;
-}
 
 
 .no-touch #cd-vertical-nav {
