@@ -61,7 +61,7 @@
             <li><a href="https://linkedin.com/in/gjchen">Linkedin</a></li>
             <li><a href="https://github.com/gj-chen">Github</a></li>
             <li><a href="GloriaChenResume.pdf" class="page-scroll">Resume</a></li>
-            <li><a href="#contact" class="page-scroll">Contact Me</a></li>
+            <li><a href="mailto:gjchen@ucdavis.edu?Subject=Hello%20Gloria" class="page-scroll">Contact Me</a></li>
         </ul><!--- End Menu -->
     </div> <!--- End Off Canvas Side Menu -->
 
@@ -78,6 +78,17 @@
                 <hr>
                 <div class="header-text btn">
                     <h1><span id="head-title"></span></h1>
+                </div>
+                <div class="row">
+                    <br><address>
+                        <strong>Davis, CA</strong>
+                        <ul class="social">
+                            <li><a href="https://linkedin.com/in/gjchen"><span class="fa fa-linkedin"></span></a></li>
+                            <li><a href="https://github.com/gj-chen"><span class="fa fa-github"></span></a></li>
+                            <li><a href="https://twitter.com/higloriac"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="mailto:gjchen@ucdavis.edu?Subject=Hello%20Gloria"><span class="fa fa-envelope"></span></a></li>
+                          </ul>
+                    </address>
                 </div>
             </div>
 
@@ -269,64 +280,10 @@
         <div class="text-center">
             <a href="https://github.com/gj-chen" class="btn read-more-btn">Github</a>
             <br>
-            <a href="#contact" class="down-btn page-scroll"><span class="fa fa-angle-down"></span></a>
         </div>
     </div>
 
-    <!-- Contact Section -->
-    <div id="contact">
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>Contact Me</h2>
-                <hr>
-            </div>
-            <div class="space"></div>
-
-            <div class="row">
-                <div class="col-md-3">
-                    <address>
-                        <strong>Davis, CA</strong><br>
-                        <br>
-                        If you'd like to send me a direct email, my email address is gjchen@ucdavis.edu
-                        
-                        <ul class="social">
-                            <li><a href="https://linkedin.com/in/gjchen"><span class="fa fa-linkedin"></span></a></li>
-                            <li><a href="https://github.com/gj-chen"><span class="fa fa-github"></span></a></li>
-                            <li><a href="https://twitter.com/higloriac"><span class="fa fa-twitter"></span></a></li>
-                            
-                          </ul>
-                    </address>
-                </div>
-
-                <div class="col-md-9">
-                    <form autocomplete="off" role ="form" method = "post" action = "contact_me.php">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Your Name" id = "name" name = "name">
-                                 <?php echo "<p class='text-danger'>$errName</p>";?>
-                                <input type="text" class="form-control" placeholder="Phone No." id = "phone" name = "phone">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Email" id = "email" name = "email">
-                                 <?php echo "<p class='text-danger'>$errEmail</p>";?>
-                                <input type="text" class="form-control" placeholder="Subject" id = "subject" name = "subject">
-                                 <?php echo "<p class='text-danger'>$errSubject</p>";?>
-                            </div>
-                        </div>
-                        <textarea class="form-control" rows="4" placeholder="Message" id = "message" name = "message"></textarea>
-                        <div class="text-right">
-                            <id = "submit" name = "submit" type = "submit" value = "Send" class="btn send-btn">Send</a>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-10 col-sm-offset-2">
-                            <?php echo $result; ?>    
-                            </div>
-                         </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+  
 
     <nav id="footer">
         <div class="container">
